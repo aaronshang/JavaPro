@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="E:/Grass/Github/JavaPro/ReportLog/lib/aliyun-sdk-oss-2.8.2.jar"/>
+	<classpathentry kind="lib" path="E:/Grass/Github/JavaPro/ReportLog/lib/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="E:/Grass/Github/JavaPro/ReportLog/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="E:/Grass/Github/JavaPro/ReportLog/lib/hamcrest-core-1.1.jar"/>
+	<classpathentry kind="lib" path="E:/Grass/Github/JavaPro/ReportLog/lib/httpclient-4.4.1.jar"/>
+	<classpathentry kind="lib" path="E:/Grass/Github/JavaPro/ReportLog/lib/httpcore-4.4.1.jar"/>
+	<classpathentry kind="lib" path="E:/Grass/Github/JavaPro/ReportLog/lib/jdom-1.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

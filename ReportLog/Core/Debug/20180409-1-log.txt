@@ -1,0 +1,237 @@
+2018/04/09 18:56:01.580 log file open success.
+2018/04/09 18:56:01.580 ==========ubserver_start==========20180405==========
+2018/04/09 18:56:01.580 start config device lib
+2018/04/09 18:56:01.696 connect device trace port:35
+2018/04/09 18:56:01.697 connect device net adapter:Qualcomm HS-USB WWAN Adapter 908B #3
+2018/04/09 18:56:01.697 connect modem 34
+2018/04/09 18:56:01.698 connect AT 34
+2018/04/09 18:56:02.567 connect device success.
+2018/04/09 18:56:02.569 will send at cmd AT+CFUN=1
+2018/04/09 18:56:02.578 Dev send command ACK:0
+2018/04/09 18:56:02.589 AT Back: [ATE0
+OK
+
+OK
+]
+2018/04/09 18:56:02.667 [DMsg]{"UB_CMD":"Command","CMD":"StartLog","Param":{"LogName":"D:\\Work\\ULINE\\Datas\\Temp\\temp_CQT_20180409_185602-1.uts","SaveUbo":0,"SaveDtLog":0,"DtLogVersion":0,"SaveLayer12":0,"TestCity":null,"TestPerson":null,"TestCar":null}}
+2018/04/09 18:56:03.505 FileParse Open File success.type: 1
+2018/04/09 18:56:03.551 Open File Success (D:\Work\ULINE\Datas\Temp\temp_CQT_20180409_185602-1.uts)
+2018/04/09 18:56:03.552 set parse lib EQID finish
+2018/04/09 18:56:03.552 Send Start Log Ack [0]
+2018/04/09 18:56:03.553 InterEvent 20020004
+2018/04/09 18:56:03.675 InterEvent 20020001
+2018/04/09 18:56:03.677 NetState 10
+2018/04/09 18:56:04.225 InterEvent 20020001
+2018/04/09 18:56:04.227 NetState 10
+2018/04/09 18:56:05.700 InterEvent 20020302
+2018/04/09 18:56:08.518 [DMsg]{"UB_CMD":"Command","CMD":"ForceCmd","Param":{"ForceType":1050116,"ForceContent":null}}
+2018/04/09 18:56:08.520 will send at cmd ATE0
+2018/04/09 18:56:08.520 Dev send command ACK:0
+2018/04/09 18:56:08.523 AT Back: [
+OK
+]
+2018/04/09 18:56:08.526 will send at cmd AT
+2018/04/09 18:56:08.526 Dev send command ACK:0
+2018/04/09 18:56:08.534 AT Back: [
+OK
+]
+2018/04/09 18:56:08.537 will send at cmd AT+CPSMS?
+2018/04/09 18:56:08.538 Dev send command ACK:0
+2018/04/09 18:56:08.545 AT Back: [
++CPSMS:0,,,"01100000","00000000"
+
+OK
+]
+2018/04/09 18:56:19.211 [DMsg]{"UB_CMD":"Command","CMD":"ForceCmd","Param":{"ForceType":1050122,"ForceContent":null}}
+2018/04/09 18:56:19.214 will send at cmd AT
+2018/04/09 18:56:19.215 Dev send command ACK:0
+2018/04/09 18:56:19.225 AT Back: [
+OK
+]
+2018/04/09 18:56:19.229 will send at cmd at+rfreqpci?
+2018/04/09 18:56:19.232 Dev send command ACK:0
+2018/04/09 18:56:19.236 AT Back: [
++RFREQPCI NOT LOCK
+
+OK
+]
+2018/04/09 18:56:27.180 InterEvent 20020001
+2018/04/09 18:56:27.182 NetState 10
+2018/04/09 18:56:27.303 InterEvent 20020001
+2018/04/09 18:56:27.305 NetState 10
+2018/04/09 18:56:27.373 InterEvent 20020001
+2018/04/09 18:56:27.375 NetState 10
+2018/04/09 18:56:33.124 [DMsg]{"UB_CMD":"Command","CMD":"ForceCmd","Param":{"ForceType":1050123,"ForceContent":{"LockCellModel":2,"EARFCN":0,"PCI":0}}}
+2018/04/09 18:56:33.135 will send at cmd AT
+2018/04/09 18:56:33.135 Dev send command ACK:0
+2018/04/09 18:56:33.140 AT Back: [
+OK
+]
+2018/04/09 18:56:33.143 will send at cmd at+rfreqpci=0,0,0
+2018/04/09 18:56:33.143 Dev send command ACK:0
+2018/04/09 18:56:33.152 AT Back: [
+OK
+]
+2018/04/09 18:56:53.301 [DMsg]{"UB_CMD":"Command","CMD":"StopLog","Param":null}
+2018/04/09 18:56:53.482 Parse. CloseDataFile Success.
+2018/04/09 18:56:53.484 send stop success cmd finish
+2018/04/09 18:56:53.502 [DMsg]{"UB_CMD":"OperateEQ","CMD":"DisConnectEQ","Param":null}
+2018/04/09 18:56:53.508 disconnect success.
+2018/04/09 18:56:53.559 [DMsg]{"UB_CMD":"Command","CMD":"ExitServer"} 
+2018/04/09 18:58:07.142 log file open success.
+2018/04/09 18:58:07.145 ==========ubserver_start==========20180405==========
+2018/04/09 18:58:07.145 start config device lib
+2018/04/09 18:58:07.218 connect device trace port:35
+2018/04/09 18:58:07.218 connect device net adapter:Qualcomm HS-USB WWAN Adapter 908B #3
+2018/04/09 18:58:07.218 connect modem 34
+2018/04/09 18:58:07.219 connect AT 34
+2018/04/09 18:58:08.060 connect device success.
+2018/04/09 18:58:08.069 will send at cmd AT+CFUN=1
+2018/04/09 18:58:08.086 AT Back: [
+OK
+]
+2018/04/09 18:58:08.090 Dev send command ACK:0
+2018/04/09 18:58:08.108 AT Back: [
+OK
+]
+2018/04/09 18:58:08.117 [DMsg]{"UB_CMD":"Command","CMD":"StartLog","Param":{"LogName":"D:\\Work\\ULINE\\Datas\\Temp\\temp_CQT_20180409_185808-1.uts","SaveUbo":0,"SaveDtLog":0,"DtLogVersion":0,"SaveLayer12":0,"TestCity":null,"TestPerson":null,"TestCar":null}}
+2018/04/09 18:58:08.338 FileParse Open File success.type: 1
+2018/04/09 18:58:08.363 Open File Success (D:\Work\ULINE\Datas\Temp\temp_CQT_20180409_185808-1.uts)
+2018/04/09 18:58:08.366 set parse lib EQID finish
+2018/04/09 18:58:08.367 Send Start Log Ack [0]
+2018/04/09 18:58:08.368 InterEvent 20020004
+2018/04/09 18:58:09.084 InterEvent 20020001
+2018/04/09 18:58:09.088 NetState 10
+2018/04/09 18:58:17.187 [DMsg]{"UB_CMD":"Command","CMD":"ForceCmd","Param":{"ForceType":1050123,"ForceContent":{"LockCellModel":2,"EARFCN":0,"PCI":0}}}
+2018/04/09 18:58:17.190 will send at cmd ATE0
+2018/04/09 18:58:17.191 Dev send command ACK:0
+2018/04/09 18:58:17.193 AT Back: [
+OK
+]
+2018/04/09 18:58:17.194 will send at cmd AT
+2018/04/09 18:58:17.194 Dev send command ACK:0
+2018/04/09 18:58:17.204 AT Back: [
+OK
+]
+2018/04/09 18:58:17.207 will send at cmd at+rfreqpci=0,0,0
+2018/04/09 18:58:17.207 Dev send command ACK:0
+2018/04/09 18:58:17.215 AT Back: [
+OK
+]
+2018/04/09 18:58:32.168 [DMsg]{"UB_CMD":"Command","CMD":"ForceCmd","Param":{"ForceType":1050123,"ForceContent":{"LockCellModel":2,"EARFCN":0,"PCI":0}}}
+2018/04/09 18:58:32.175 will send at cmd AT
+2018/04/09 18:58:32.175 Dev send command ACK:0
+2018/04/09 18:58:32.181 AT Back: [
+OK
+]
+2018/04/09 18:58:32.184 will send at cmd at+rfreqpci=0,0,0
+2018/04/09 18:58:32.184 Dev send command ACK:0
+2018/04/09 18:58:32.192 AT Back: [
+OK
+]
+2018/04/09 18:58:35.125 [DMsg]{"UB_CMD":"Command","CMD":"StopLog","Param":null}
+2018/04/09 18:58:35.320 Parse. CloseDataFile Success.
+2018/04/09 18:58:35.323 send stop success cmd finish
+2018/04/09 18:58:35.342 [DMsg]{"UB_CMD":"OperateEQ","CMD":"DisConnectEQ","Param":null}
+2018/04/09 18:58:35.350 disconnect success.
+2018/04/09 18:58:35.401 [DMsg]{"UB_CMD":"Command","CMD":"ExitServer"} 
+2018/04/09 19:06:30.837 log file open success.
+2018/04/09 19:06:30.837 ==========ubserver_start==========20180405==========
+2018/04/09 19:06:30.837 start config device lib
+2018/04/09 19:06:30.999 connect device trace port:35
+2018/04/09 19:06:30.999 connect device net adapter:Qualcomm HS-USB WWAN Adapter 908B #3
+2018/04/09 19:06:30.999 connect modem 34
+2018/04/09 19:06:31.003 connect AT 34
+2018/04/09 19:06:31.879 connect device success.
+2018/04/09 19:06:31.890 will send at cmd AT+CFUN=1
+2018/04/09 19:06:31.917 Dev send command ACK:0
+2018/04/09 19:06:31.941 AT Back: [
+OK
+
+OK
+]
+2018/04/09 19:06:31.950 [DMsg]{"UB_CMD":"Command","CMD":"StartLog","Param":{"LogName":"D:\\Work\\ULINE\\Datas\\Temp\\temp_CQT_20180409_190631-1.uts","SaveUbo":0,"SaveDtLog":0,"DtLogVersion":0,"SaveLayer12":0,"TestCity":null,"TestPerson":null,"TestCar":null}}
+2018/04/09 19:06:32.115 FileParse Open File success.type: 1
+2018/04/09 19:06:32.129 Open File Success (D:\Work\ULINE\Datas\Temp\temp_CQT_20180409_190631-1.uts)
+2018/04/09 19:06:32.130 set parse lib EQID finish
+2018/04/09 19:06:32.132 Send Start Log Ack [0]
+2018/04/09 19:06:32.133 InterEvent 20020004
+2018/04/09 19:06:32.896 InterEvent 20020001
+2018/04/09 19:06:32.900 NetState 10
+2018/04/09 19:06:36.994 [DMsg]{"UB_CMD":"Command","CMD":"ForceCmd","Param":{"ForceType":1050123,"ForceContent":{"LockCellModel":2,"EARFCN":0,"PCI":0}}}
+2018/04/09 19:06:37.009 will send at cmd ATE0
+2018/04/09 19:06:37.010 Dev send command ACK:0
+2018/04/09 19:06:37.020 AT Back: [
+OK
+]
+2018/04/09 19:06:37.021 will send at cmd AT
+2018/04/09 19:06:37.021 Dev send command ACK:0
+2018/04/09 19:06:37.031 AT Back: [
+OK
+]
+2018/04/09 19:06:37.035 will send at cmd at+rfreqpci=0,0,0
+2018/04/09 19:06:37.036 Dev send command ACK:0
+2018/04/09 19:06:37.042 AT Back: [
+OK
+]
+2018/04/09 19:06:42.359 [DMsg]{"UB_CMD":"Command","CMD":"StopLog","Param":null}
+2018/04/09 19:06:42.539 Parse. CloseDataFile Success.
+2018/04/09 19:06:42.544 send stop success cmd finish
+2018/04/09 19:06:42.577 [DMsg]{"UB_CMD":"OperateEQ","CMD":"DisConnectEQ","Param":null}
+2018/04/09 19:06:42.591 disconnect success.
+2018/04/09 19:06:42.632 [DMsg]{"UB_CMD":"Command","CMD":"ExitServer"} 
+2018/04/09 19:13:58.507 log file open success.
+2018/04/09 19:13:58.507 ==========ubserver_start==========20180405==========
+2018/04/09 19:13:58.507 start config device lib
+2018/04/09 19:13:58.527 connect device trace port:35
+2018/04/09 19:13:58.527 connect device net adapter:Qualcomm HS-USB WWAN Adapter 908B #3
+2018/04/09 19:13:58.527 connect modem 34
+2018/04/09 19:13:58.527 connect AT 34
+2018/04/09 19:13:59.557 connect device success.
+2018/04/09 19:13:59.567 will send at cmd AT+CFUN=1
+2018/04/09 19:13:59.587 Dev send command ACK:0
+2018/04/09 19:13:59.597 AT Back: [
+OK
+]
+2018/04/09 19:13:59.597 AT Back: [
+OK
+]
+2018/04/09 19:13:59.637 [DMsg]{"UB_CMD":"Command","CMD":"StartLog","Param":{"LogName":"D:\\Work\\ULINE\\Datas\\Temp\\temp_CQT_20180409_191359-1.uts","SaveUbo":0,"SaveDtLog":0,"DtLogVersion":0,"SaveLayer12":0,"TestCity":null,"TestPerson":null,"TestCar":null}}
+2018/04/09 19:13:59.817 FileParse Open File success.type: 1
+2018/04/09 19:13:59.817 Open File Success (D:\Work\ULINE\Datas\Temp\temp_CQT_20180409_191359-1.uts)
+2018/04/09 19:13:59.827 set parse lib EQID finish
+2018/04/09 19:13:59.827 Send Start Log Ack [0]
+2018/04/09 19:13:59.827 InterEvent 20020004
+2018/04/09 19:14:00.668 InterEvent 20020001
+2018/04/09 19:14:00.668 NetState 10
+2018/04/09 19:14:04.378 [DMsg]{"UB_CMD":"Command","CMD":"ForceCmd","Param":{"ForceType":1050123,"ForceContent":{"LockCellModel":2,"EARFCN":0,"PCI":0}}}
+2018/04/09 19:14:04.388 will send at cmd ATE0
+2018/04/09 19:14:04.388 Dev send command ACK:0
+2018/04/09 19:14:04.398 will send at cmd AT
+2018/04/09 19:14:04.398 will send at cmd AT
+2018/04/09 19:14:04.398 Dev send command ACK:0
+2018/04/09 19:14:04.418 AT Back: [
+OK
+]
+2018/04/09 19:14:04.428 will send at cmd at+rfreqpci=0,0,0
+2018/04/09 19:14:04.428 Dev send command ACK:0
+2018/04/09 19:14:04.438 AT Back: [
+OK
+]
+2018/04/09 19:14:24.814 [DMsg]{"UB_CMD":"Command","CMD":"ForceCmd","Param":{"ForceType":1050123,"ForceContent":{"LockCellModel":0,"EARFCN":0,"PCI":0}}}
+2018/04/09 19:14:24.844 will send at cmd AT
+2018/04/09 19:14:24.844 Dev send command ACK:0
+2018/04/09 19:14:24.854 AT Back: [
+OK
+]
+2018/04/09 19:14:24.864 will send at cmd at+rfreqpci=0,0,0
+2018/04/09 19:14:24.864 Dev send command ACK:0
+2018/04/09 19:14:24.874 AT Back: [
+OK
+]
+2018/04/09 19:17:43.683 [DMsg]{"UB_CMD":"Command","CMD":"StopLog","Param":null}
+2018/04/09 19:17:43.852 Parse. CloseDataFile Success.
+2018/04/09 19:17:43.854 send stop success cmd finish
+2018/04/09 19:17:43.880 [DMsg]{"UB_CMD":"OperateEQ","CMD":"DisConnectEQ","Param":null}
+2018/04/09 19:17:43.914 disconnect success.
+2018/04/09 19:17:43.927 [DMsg]{"UB_CMD":"Command","CMD":"ExitServer"} 
